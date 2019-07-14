@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_07_10_235945) do
+ActiveRecord::Schema.define(version: 2019_07_14_122524) do
 
   create_table "messages", force: :cascade do |t|
     t.string "title"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2019_07_10_235945) do
     t.string "name"
     t.integer "weight"
     t.integer "height"
+    t.integer "grade"
   end
 
 end
